@@ -1,0 +1,28 @@
+{
+  "name": "if-exp",
+  "version": "1.0.0",
+  "description": "Conditional (if) expressions for JavaScript",
+  "main": "if-exp.js",
+  "keywords": [
+    "if",
+    "expression",
+    "conditional"
+  ],
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FGRibreau/iff.git"
+  },
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FGRibreau/iff/issues"
+  },
+  "homepage": "https://github.com/FGRibreau/iff",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
