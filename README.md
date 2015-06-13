@@ -27,7 +27,7 @@ var a = iff(condition)
 
 Some languages implement conditionals (and other well known statements) as expressions, so we can write:
 
-```scala
+```
 val res = if(condition){
     'result 1'
 } else if(secondCondition) {
