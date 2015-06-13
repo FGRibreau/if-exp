@@ -42,7 +42,9 @@ val res = if(condition){
 While in JavaScript, conditional expressions can be achieve using ternary operators. Multiple conditions are sometimes hard to read using ternary:
 
 ```javascript
-var res = condition ?  'result 1' : (secondCondition ? 'result 2' : (thirdCondition ? 'result 3' : 'result 4'));
+var res = condition ?  'result 1' : 
+    (secondCondition ? 'result 2' : 
+        (thirdCondition ? 'result 3' : 'result 4'));
 ```
 
 Here is how to write the same thing with iff:
