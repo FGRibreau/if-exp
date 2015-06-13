@@ -4,7 +4,9 @@ Conditional (if) expressions for JavaScript
 
 # NPM
 
+```bash
 npm install if-exp
+```
 
 # Usage
 
@@ -23,7 +25,7 @@ var a = iff(condition)
 
 # Motivations
 
-In Scala, conditional (and other well known statements) are expressions, so we can write:
+Some languages implement conditionals (and other well known statements) as expressions, so we can write:
 
 ```scala
 val res = if(condition){
@@ -37,7 +39,7 @@ val res = if(condition){
 }
 ```
 
-While in JavaScript, conditional expressions can be achieve using ternary operators. Multiple conditions are sometimes hard to read:
+While in JavaScript, conditional expressions can be achieve using ternary operators. Multiple conditions are sometimes hard to read using ternary:
 
 ```javascript
 var res = condition ?  'result 1' : (secondCondition ? 'result 2' : (thirdCondition ? 'result 3' : 'result 4'));
