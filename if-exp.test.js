@@ -56,4 +56,20 @@ describe('iff', function () {
     hasCustomerDowngraded = true;
     test(DOWNGRADE);
   });
+
+  describe('lazy condition evaluation', function() {
+    function SHOULD_NOT_BE_CALLED(){throw new Error('SHOULD NOT BE CALLED');}
+    function FALSE(){return false;}
+    function TRUE(){return true;}
+
+    it('should support function as conditional predicate', function(){
+      t.strictEqual(iff(FALSE).then(1).otherwise(2), 2);
+      t.strictEqual(iff(TRUE).then(1).otherwise(2), 1);
+    });
+
+    it('should not call the next conditional predicates if a conditional was true', function(){
+      t.strictEqual(iff(TRUE).then(1).elseIff(SHOULD_NOT_BE_CALLED).then(2).otherwise(3), 1);
+      t.strictEqual(iff(FALSE).then(1).elseIff(TRUE).then(2).elseIff(SHOULD_NOT_BE_CALLED).then(3).otherwise(4), 2);
+    });
+  });
 });
