@@ -1,4 +1,6 @@
 # if-exp
+[![Version](http://badge.fury.io/js/if-exp.png)](https://david-dm.org/FGRibreau/if-exp)
+[![Deps](https://david-dm.org/FGRibreau/if-exp.png)](https://david-dm.org/FGRibreau/if-exp) [![Downloads](http://img.shields.io/npm/dm/if-exp.svg)](https://www.npmjs.com/package/if-exp) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg)
 
 Conditional (if) expressions for JavaScript
 
