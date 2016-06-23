@@ -13,9 +13,9 @@ npm install if-exp
 # Usage
 
 ```javascript
-var iff = require('if-exp');
+const iff = require('if-exp');
 
-var a = iff(condition)
+const result = iff(condition)
             .then('result 1')
         .elseIff(secondCondition)
             .then('result 2')
