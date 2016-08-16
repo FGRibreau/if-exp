@@ -1,7 +1,7 @@
 'use strict';
 
 var t = require('chai').assert;
-var iff = require('./');
+var iff = require('../');
 
 describe('iff', function () {
   var isNewCustomer,
