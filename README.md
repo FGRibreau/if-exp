@@ -1,6 +1,7 @@
 # if-exp
-[![Version](http://badge.fury.io/js/if-exp.png)](https://david-dm.org/FGRibreau/if-exp)
-[![Deps](https://david-dm.org/FGRibreau/if-exp.png)](https://david-dm.org/FGRibreau/if-exp) [![Downloads](http://img.shields.io/npm/dm/if-exp.svg)](https://www.npmjs.com/package/if-exp) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg)
+
+
+[![Build Status](https://img.shields.io/circleci/project/FGRibreau/if-exp.svg)](https://circleci.com/gh/FGRibreau/if-exp/) [![Coverage Status](https://img.shields.io/coveralls/FGRibreau/if-exp/master.svg)](https://coveralls.io/github/FGRibreau/if-exp?branch=master) [![Deps](	https://img.shields.io/david/FGRibreau/if-exp.svg)](https://david-dm.org/FGRibreau/if-exp) [![NPM version](https://img.shields.io/npm/v/if-exp.svg)](http://badge.fury.io/js/if-exp) [![Downloads](http://img.shields.io/npm/dm/if-exp.svg)](https://www.npmjs.com/package/if-exp) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg)
 
 Conditional (if) expressions for JavaScript
 
