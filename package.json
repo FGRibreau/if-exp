@@ -1,6 +1,6 @@
 {
   "name": "if-exp",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Conditional (if) expressions for JavaScript",
   "main": "src/if-exp.js",
   "keywords": [
