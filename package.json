@@ -23,6 +23,18 @@
       "src/*"
     ]
   },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/FGRibreau/iff.git"
