@@ -44,6 +44,9 @@
   "bugs": {
     "url": "https://github.com/FGRibreau/iff/issues"
   },
+  "engines":{
+    "node": "6"
+  },
   "homepage": "https://github.com/FGRibreau/iff",
   "devDependencies": {
     "chai": "^3.5.0",
