@@ -3,7 +3,7 @@
 
 [![Build Status](https://img.shields.io/circleci/project/FGRibreau/if-exp.svg)](https://circleci.com/gh/FGRibreau/if-exp/) [![Coverage Status](https://img.shields.io/coveralls/FGRibreau/if-exp/master.svg)](https://coveralls.io/github/FGRibreau/if-exp?branch=master) [![Deps](	https://img.shields.io/david/FGRibreau/if-exp.svg)](https://david-dm.org/FGRibreau/if-exp) [![NPM version](https://img.shields.io/npm/v/if-exp.svg)](http://badge.fury.io/js/if-exp) [![Downloads](http://img.shields.io/npm/dm/if-exp.svg)](https://www.npmjs.com/package/if-exp) 
 
-[![available-for-advisory](https://img.shields.io/badge/available%20for%20advising-yes-ff69b4.svg?)](http://bit.ly/2c7uFJq) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg) [![Twitter Follow](https://img.shields.io/twitter/follow/fgribreau.svg?style=flat)](https://twitter.com/FGRibreau)
+[![available-for-advisory](https://img.shields.io/badge/available%20for%20consulting%20advisory-yes-ff69b4.svg?)](http://bit.ly/2c7uFJq) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg) [![Twitter Follow](https://img.shields.io/twitter/follow/fgribreau.svg?style=flat)](https://twitter.com/FGRibreau)
 
 Conditional (if) expressions for JavaScript
 
